@@ -1,7 +1,7 @@
 # wordpress-kube
 
 ```
-git clone 
+git clone https://github.com/andersonloyem/wordpress-kube.git
 cd wordpress-kube
 kubectl apply -f ./
 kubectl get po,svc,deploy -o wide
