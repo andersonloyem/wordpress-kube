@@ -10,3 +10,5 @@ kubectl get po,svc,deploy -o wide
 ```
 
 ![image](https://user-images.githubusercontent.com/30845852/119739078-faa35980-be81-11eb-954b-92de02fb82a6.png)
+
+#### monitoring installation : https://ubuntu.com/blog/monitor-your-kubernetes-cluster
