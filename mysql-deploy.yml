@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mysql
+  name: mysql-deploy
   labels:
     app: mysql
 spec:
@@ -14,7 +14,7 @@ spec:
   template:
     metadata:
       labels:
-        app: mysql
+        app: mysql-pod
     spec:
       containers:
       - image: mysql:5.6
