@@ -18,8 +18,8 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: wordpress:4.8-apache
-        name: wordpress
+      - image: wordpress
+        name: wordpress-pod
         env:
         - name: WORDPRESS_DB_HOST
           value: mysql-service
