@@ -21,7 +21,7 @@ spec:
         name: mysql-pod
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: password
+          value: admin
         - name: MYSQL_DATABASE
           value: admin
         - name: MYSQL_USER
