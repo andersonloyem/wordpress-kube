@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: phpmyadmin-deployment
+  name: phpmyadmin-deploy
   labels:
     app: phpmyadmin
 spec:
@@ -15,7 +15,7 @@ spec:
         app: phpmyadmin
     spec:
       containers:
-        - name: phpmyadmin
+        - name: phpmyadmin-pod
           image: phpmyadmin/phpmyadmin
           ports:
             - containerPort: 80
