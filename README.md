@@ -13,6 +13,4 @@ kubectl get po,svc,deploy -o wide
 
 #### monitoring installation : https://ubuntu.com/blog/monitor-your-kubernetes-cluster
 
-https://www.digitalocean.com/community/tutorials/how-to-set-up-a-kubernetes-monitoring-stack-with-prometheus-grafana-and-alertmanager-on-digitalocean
-
-https://docs.microsoft.com/fr-fr/azure/aks/kubernetes-action
+#### deploy in AKS : https://docs.microsoft.com/fr-fr/azure/aks/kubernetes-walkthrough-portal 
